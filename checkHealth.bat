@@ -1,0 +1,1 @@
+for %%g in (company, action-request ) do ( curl https://zdiscovery-staging.io/%%g/health )
