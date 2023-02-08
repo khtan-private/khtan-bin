@@ -1,0 +1,7 @@
+* main
+** registry
+This is to keep track of where the bin directory is being used
+
+| machine | type  | path               |
+|---------+-------+--------------------|
+| air     | win10 | d:\users\khtan\bin |
