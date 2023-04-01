@@ -1,4 +1,4 @@
-@echo on
+@echo off
 cd %HOME%
 if /I "%computername%"=="kwee1" (
    echo "%computername% is supported"
@@ -6,6 +6,6 @@ if /I "%computername%"=="kwee1" (
 ) else if /I "%computername%"=="air" (
   echo "%computername% to be supported"
 ) else (
-  echo "%computername% not yet supported"
+  echo "Warning: %computername% not yet supported"
 )
 

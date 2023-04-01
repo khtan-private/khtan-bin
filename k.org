@@ -1,3 +1,8 @@
+* meta
+** startups
+//		#+STARTUP: hidestars	
+#+SEQ_TODO: TODO(t!) START(s!) STUCK(k!) WAIT(w!) | DONE(d!) CANCEL(c!) DEFER(r!) ANSWER(n!)
+
 * root
 ** intent
 A set of k-<area> batch files to set up windows and apps quickly
@@ -9,7 +14,11 @@ A set of k-<area> batch files to set up windows and apps quickly
 | k-comm      | communications                 | signal, whatsapp                                  |
 | k-wsl       | wsl ubuntu spacemacs           | kwee1-ubuntu-spacemacs                            |
 | k-template  | template code per computername |                                                   |
+
 ** improvements
-2. check for machinename so that code is single sourced
-1. idea: if already running, skip
-3. move from cmd syntax to python?
+*** DONE check for machinename so that code is single sourced
+CLOSED: [2023-04-01 Sat 15:12]
+- State "DONE"       from              [2023-04-01 Sat 15:12]
+*** idea: if already running, skip
+*** move from cmd syntax to python?
+a. cmd @echo on/off is useless because entire script is evaluated and shown, not which block of code
