@@ -1,0 +1,15 @@
+* root
+** intent
+A set of k-<area> batch files to set up windows and apps quickly
+** organization
+|             |                                |                                                   |
+| k-work      | work                           | eaglecap.eco, family-usa.eco, kwee1-win-spacemacs |
+| k-browsers  | most used browsers             | usa, beam, even                                   |
+| k-browsers2 | less used browsers             | odd, pcc, poipoi                                  |
+| k-comm      | communications                 | signal, whatsapp                                  |
+| k-wsl       | wsl ubuntu spacemacs           | kwee1-ubuntu-spacemacs                            |
+| k-template  | template code per computername |                                                   |
+** improvements
+2. check for machinename so that code is single sourced
+1. idea: if already running, skip
+3. move from cmd syntax to python?
