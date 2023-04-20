@@ -3,7 +3,8 @@ cd %HOME%
 if /I "%computername%"=="kwee1" (
    echo "%computername% is supported"
    start C:\Users\tankh\AppData\Local\Programs\signal-desktop\Signal.exe
-   start C:\Users\tankh\AppData\Local\WhatsApp\WhatsApp.exe
+   rem start C:\Users\tankh\AppData\Local\WhatsApp\WhatsApp.exe
+   start "whatsapp" /B "%USERPROFILE%/Desktop/WhatsAppX.lnk"
 ) else if /I "%computername%"=="air" (
   echo "%computername% is supported"
   start C:\Users\tankh\AppData\Local\Programs\signal-desktop\Signal.exe
