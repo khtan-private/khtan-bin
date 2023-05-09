@@ -10,6 +10,10 @@ if /I "%computername%"=="kwee1" (
 ) else if /I "%computername%"=="kwee1-ubuntu" (
 rem machine name is not correct
 rem shell is also not correct
+rem Need to check computername==kwee1 && machine=Linux
+rem no bin
+  echo "~/emacsConfig"
+  echo "~/cprojects/github/play"
   echo "~/cprojects/lotus"
 ) else if /I "%computername%"=="air" (
   echo "%computername% is supported"
