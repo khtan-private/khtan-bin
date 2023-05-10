@@ -19,7 +19,7 @@ rem no bin
   echo "%computername% is supported"
   echo "d:/users/khtan/bin"
   echo "d:/users/khtan/emacsConfig"
-  echo "c:/cprojects/gitnub/play"
+  echo "c:/cprojects/github/play"
 ) else (
 echo "Warning: %computername% not yet supported"
 )
